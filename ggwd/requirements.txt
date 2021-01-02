@@ -1,0 +1,16 @@
+# For running the code
+h5py
+lalsuite==6.53
+matplotlib
+numpy==1.15.0
+pandas
+PyCBC==1.13.6
+requests
+scipy
+six
+tqdm
+
+# For building the docs
+sphinx
+sphinx-rtd-theme
+sphinxcontrib-napoleon
