@@ -96,7 +96,7 @@ We offer a example in `./config_files`, which parameters are all set to constant
 
 Run Jupyter Notebook `whiten_wavepic_draw.ipynb`, the result will be saved in `./img` :
 
-<img src="./img/example.jpg" alt="example" style="zoom:67%;" />
+<img src="./img/example.jpg" alt="example" style="zoom: 50%;" />
 
 ## Data2Csv
 
