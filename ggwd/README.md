@@ -18,7 +18,7 @@ We added signal-only whiten and whiten signal visualization for data visualizati
 
 ## Requirements
 
-The environment we used is same as [ggwd](https://github.com/timothygebhard/ggwd) . Considering that Python 2.7 reached the end of its life on January 1st, 2020, problems may occur for users to set up their own environment. **Thus, we give a pipeline of our own as follows👇:**
+The environment we used is the same as [ggwd](https://github.com/timothygebhard/ggwd) . Considering that Python 2.7 reached the end of its life on January 1st, 2020, problems may occur for users to set up their own environment. **Thus, we give a pipeline of our own as follows👇:**
 
 1. create virtual env
 
@@ -75,7 +75,7 @@ Get to the path of this code, run:
 python generate_sample.py --config-file=default.json
 ```
 
-The results will be stored in ./output.
+The results will be stored in `./output`.
 
 ### 3.Constant parameters
 
@@ -86,15 +86,22 @@ If you wanna set parameters such as mass1 to a constant value, you should edit
 
 3. `simulation_parameters` in line 194, 260 of `waveforms.py` 
 4. `injection_snr` (if you wanna set snr to constant) in line 212 of `samplegeneration.py`
-5. line 316 of `samplefiles.py`
+5. Line 316 of `samplefiles.py`
 
 ## Example
 
 We offer a example in `./config_files` , which parameters are all set to constant values. You can compare our code with the original setting in [ggwd](https://github.com/timothygebhard/ggwd) .
 
-run Jupyter Notebook `whiten_wavepic_draw.ipynb` , the result will be saved in `./img` :
+Run Jupyter Notebook `whiten_wavepic_draw.ipynb` , the result will be saved in `./img` :
 
-<img src="/Users/xiaheming/Desktop/ggwd/img/example.jpg" alt="example" style="zoom:67%;" />
+<img src="./img/example.jpg" alt="example" style="zoom:67%;" />
+
+## Data2Csv
+
+If you generate a dataset, you can run `data2csv.ipynb` to process your hdf output files, including:
+
+- Split training sets and testing sets.
+- Add classification labels for data.
 
 ## Issues
 
