@@ -47,6 +47,8 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+5. install other packages needed in `whiten_wavepic_draw.ipynb` and `data2csv.ipynb`.
+
 ## Usage
 
 For details to use this tool, please check the original documentation: [ggwd documentation](https://github.com/timothygebhard/ggwd#documentation) .
@@ -90,15 +92,15 @@ If you wanna set parameters such as mass1 to a constant value, you should edit
 
 ## Example
 
-We offer a example in `./config_files` , which parameters are all set to constant values. You can compare our code with the original setting in [ggwd](https://github.com/timothygebhard/ggwd) .
+We offer a example in `./config_files`, which parameters are all set to constant values. You can compare our code with the original setting in [ggwd](https://github.com/timothygebhard/ggwd) .
 
-Run Jupyter Notebook `whiten_wavepic_draw.ipynb` , the result will be saved in `./img` :
+Run Jupyter Notebook `whiten_wavepic_draw.ipynb`, the result will be saved in `./img` :
 
 <img src="./img/example.jpg" alt="example" style="zoom:67%;" />
 
 ## Data2Csv
 
-If you generate a dataset, you can run `data2csv.ipynb` to process your hdf output files, including:
+If you generate a dataset, you can run `data2csv.ipynb` to preprocess your data, including:
 
 - Split training sets and testing sets.
 - Add classification labels for data.
@@ -113,5 +115,5 @@ segment_duration = 1
 max_filter_duration = 1
 ```
 
-in `/config_files/your_dataset_name.ini` when you generate your own datasets, as we did in `example.ini` .
+in `/config_files/your_dataset_name.ini` when you generate your own datasets, as we did in `example.ini`.
 
