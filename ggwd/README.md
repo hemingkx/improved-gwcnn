@@ -107,7 +107,7 @@ If you generate a dataset, you can run `data2csv.ipynb` to preprocess your data,
 
 ## Issues
 
-In the coding process of our code, we found that parameter settings in the original code has some problems. We suggest you to set:
+In the coding process of our code, we found that parameter settings in the original code have some problems. We suggest you to set:
 
 ```
 f_lower = 10
