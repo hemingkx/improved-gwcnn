@@ -23,7 +23,7 @@ The environment we used is the same as [ggwd](https://github.com/timothygebhard/
 1. create virtual env
 
 ```
-conda create gwenv python=2.7
+conda create -n gwenv python=2.7
 ```
 
 2. set the ipykernel
