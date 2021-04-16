@@ -111,9 +111,9 @@ In the coding process of our code, we found that parameter settings in the origi
 
 ```
 f_lower = 10
-segment_duration = 1
-max_filter_duration = 1
+whitening_segment_duration = 1
+whitening_max_filter_duration = 1
 ```
 
-in `/config_files/your_dataset_name.ini` when you generate your own datasets, as we did in `example.ini`.
+in `/config_files/your_dataset_name.ini` when you generate your own datasets, as we did in `waveform_params.ini`.
 
